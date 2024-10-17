@@ -1,0 +1,38 @@
+site_name: DjangoDIY 
+theme:
+  name: material
+  icon:
+    logo: simple/nucleo
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.footer
+    - navigation.expand
+    - navigation.path
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: #7b42f5
+      accent: deep orange
+nav: 
+  - Philosophy: index.md
+  - Docs: docs.md
+  - Blog App: 
+      - Overview: pages/section1.md
+  - Blog: blog.md
+  - Community: community.md
+
