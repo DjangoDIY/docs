@@ -30,9 +30,14 @@ theme:
       accent: deep orange
 nav: 
   - Philosophy: index.md
-  - Docs: docs.md
-  - Blog App: 
-      - Overview: pages/section1.md
-  - Blog: blog.md
-  - Community: community.md
+  - DIYblog app: 
+      - Overview: diyblog/blog.md
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
