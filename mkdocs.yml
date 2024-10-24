@@ -9,6 +9,7 @@ theme:
     - navigation.footer
     - navigation.expand
     - navigation.path
+    - content.code.copy
   font:
     text: Merriweather Sans
     code: Red Hat Mono
@@ -30,8 +31,10 @@ theme:
       accent: deep orange
 nav: 
   - Philosophy: index.md
-  - DIYblog app: 
-      - Overview: diyblog/blog.md
+  - DIYblog app: diyblog/blog.md
+  - DIYTours app: DiyTours/overview.md
+
+
 
 markdown_extensions:
   - pymdownx.highlight:

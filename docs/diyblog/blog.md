@@ -28,7 +28,7 @@ Welcome to the DIYBlog app! DIYBlog is a reusable Django app that provides essen
 
 To start using DIYBlog, you’ll first need to set up a Django project. Navigate to your desired directory and execute the following command to start a new project:
 
-```py title="startting project" linenums="1"
+```py title="startting project"
 django-admin startproject ProjectName
 ```
 This command creates a new directory with your project name. Now, to integrate the DIYBlog app into your project, clone the repository by running:
@@ -50,7 +50,7 @@ mv diyblog /path/to_your_project/ProjectName
 
 Once the app is moved, head over to your project directory and open the settings.py file. Under the INSTALLED_APPS section, add 'diyblog' as shown below:
 
-```s hl_lines='2'
+```s title="ProjectName/settings.py" hl_lines='2'
 
 INSTALLED_APPS = [
     'diyblog',
@@ -121,5 +121,12 @@ And that’s it! Your DIYBlog app is now installed and fully functional.
 
 Happy Blogging!
 
+
+
+
+
+
+
+The basic usage of DIYBlog is already setup, the following section is for advance modifications of the app. The basic version of app does contains all the features required to setup the blogging app, however we understand that when it comes to developing projects its not like one shoe size fits all, so DjangoDIY provides functionality to modify the basic code structure as per your own need, Its our philosophy your project your rules.
 
 
